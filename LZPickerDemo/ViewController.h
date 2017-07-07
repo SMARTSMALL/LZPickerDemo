@@ -2,7 +2,7 @@
 //  ViewController.h
 //  LZPickerDemo
 //
-//  Created by 朱圳 on 2017/7/7.
+//  Created by smart_small on 2017/7/7.
 //  Copyright © 2017年 ZZ. All rights reserved.
 //
 

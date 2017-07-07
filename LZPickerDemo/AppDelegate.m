@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  LZPickerDemo
 //
-//  Created by 朱圳 on 2017/7/7.
+//  Created by smart_small on 2017/7/7.
 //  Copyright © 2017年 ZZ. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "PickViewVC.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    PickViewVC *mainVC = [[PickViewVC alloc]init];
+    UINavigationController *NVC = [[UINavigationController alloc]initWithRootViewController:mainVC];
+    [self.window setRootViewController:NVC];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

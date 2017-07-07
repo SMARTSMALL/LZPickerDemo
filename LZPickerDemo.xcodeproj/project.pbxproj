@@ -13,6 +13,20 @@
 		A9AF39261F0FB864009D47E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39241F0FB864009D47E7 /* Main.storyboard */; };
 		A9AF39281F0FB864009D47E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39271F0FB864009D47E7 /* Assets.xcassets */; };
 		A9AF392B1F0FB864009D47E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39291F0FB864009D47E7 /* LaunchScreen.storyboard */; };
+		A9AF39461F0FB888009D47E7 /* LZPickViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39341F0FB888009D47E7 /* LZPickViewManager.m */; };
+		A9AF39471F0FB888009D47E7 /* LZPickTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39361F0FB888009D47E7 /* LZPickTopView.m */; };
+		A9AF39481F0FB888009D47E7 /* LZAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39381F0FB888009D47E7 /* LZAddressPickerView.m */; };
+		A9AF39491F0FB888009D47E7 /* LZTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF393A1F0FB888009D47E7 /* LZTimePickerView.m */; };
+		A9AF394A1F0FB888009D47E7 /* LZMultiplePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF393C1F0FB888009D47E7 /* LZMultiplePickerView.m */; };
+		A9AF394B1F0FB888009D47E7 /* LZCustomLimitDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF393E1F0FB888009D47E7 /* LZCustomLimitDatePicker.m */; };
+		A9AF394C1F0FB888009D47E7 /* PickerView.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39401F0FB888009D47E7 /* PickerView.gif */; };
+		A9AF394D1F0FB888009D47E7 /* UIDatePicker.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39411F0FB888009D47E7 /* UIDatePicker.gif */; };
+		A9AF394E1F0FB888009D47E7 /* goldeneyeAddress.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39421F0FB888009D47E7 /* goldeneyeAddress.plist */; };
+		A9AF394F1F0FB888009D47E7 /* iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39431F0FB888009D47E7 /* iPhone.plist */; };
+		A9AF39501F0FB888009D47E7 /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AF39441F0FB888009D47E7 /* Cars.plist */; };
+		A9AF39581F0FB8B3009D47E7 /* PickViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39531F0FB8B3009D47E7 /* PickViewVC.m */; };
+		A9AF39591F0FB8B3009D47E7 /* ChoseDatePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39551F0FB8B3009D47E7 /* ChoseDatePickViewController.m */; };
+		A9AF395A1F0FB8B3009D47E7 /* PickTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AF39571F0FB8B3009D47E7 /* PickTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,30 @@
 		A9AF39271F0FB864009D47E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9AF392A1F0FB864009D47E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9AF392C1F0FB864009D47E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AF39321F0FB888009D47E7 /* LZPickViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPickViewDefine.h; sourceTree = "<group>"; };
+		A9AF39331F0FB888009D47E7 /* LZPickViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPickViewManager.h; sourceTree = "<group>"; };
+		A9AF39341F0FB888009D47E7 /* LZPickViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPickViewManager.m; sourceTree = "<group>"; };
+		A9AF39351F0FB888009D47E7 /* LZPickTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPickTopView.h; sourceTree = "<group>"; };
+		A9AF39361F0FB888009D47E7 /* LZPickTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPickTopView.m; sourceTree = "<group>"; };
+		A9AF39371F0FB888009D47E7 /* LZAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAddressPickerView.h; sourceTree = "<group>"; };
+		A9AF39381F0FB888009D47E7 /* LZAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAddressPickerView.m; sourceTree = "<group>"; };
+		A9AF39391F0FB888009D47E7 /* LZTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTimePickerView.h; sourceTree = "<group>"; };
+		A9AF393A1F0FB888009D47E7 /* LZTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTimePickerView.m; sourceTree = "<group>"; };
+		A9AF393B1F0FB888009D47E7 /* LZMultiplePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMultiplePickerView.h; sourceTree = "<group>"; };
+		A9AF393C1F0FB888009D47E7 /* LZMultiplePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMultiplePickerView.m; sourceTree = "<group>"; };
+		A9AF393D1F0FB888009D47E7 /* LZCustomLimitDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCustomLimitDatePicker.h; sourceTree = "<group>"; };
+		A9AF393E1F0FB888009D47E7 /* LZCustomLimitDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCustomLimitDatePicker.m; sourceTree = "<group>"; };
+		A9AF39401F0FB888009D47E7 /* PickerView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PickerView.gif; sourceTree = "<group>"; };
+		A9AF39411F0FB888009D47E7 /* UIDatePicker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UIDatePicker.gif; sourceTree = "<group>"; };
+		A9AF39421F0FB888009D47E7 /* goldeneyeAddress.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goldeneyeAddress.plist; sourceTree = "<group>"; };
+		A9AF39431F0FB888009D47E7 /* iPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone.plist; sourceTree = "<group>"; };
+		A9AF39441F0FB888009D47E7 /* Cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
+		A9AF39521F0FB8B3009D47E7 /* PickViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewVC.h; sourceTree = "<group>"; };
+		A9AF39531F0FB8B3009D47E7 /* PickViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewVC.m; sourceTree = "<group>"; };
+		A9AF39541F0FB8B3009D47E7 /* ChoseDatePickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseDatePickViewController.h; sourceTree = "<group>"; };
+		A9AF39551F0FB8B3009D47E7 /* ChoseDatePickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseDatePickViewController.m; sourceTree = "<group>"; };
+		A9AF39561F0FB8B3009D47E7 /* PickTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickTestViewController.h; sourceTree = "<group>"; };
+		A9AF39571F0FB8B3009D47E7 /* PickTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,9 @@
 		A9AF391A1F0FB864009D47E7 /* LZPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9AF39511F0FB8A9009D47E7 /* UseClass */,
+				A9AF393F1F0FB888009D47E7 /* LZPickView */,
+				A9AF39451F0FB888009D47E7 /* Resources */,
 				A9AF391E1F0FB864009D47E7 /* AppDelegate.h */,
 				A9AF391F1F0FB864009D47E7 /* AppDelegate.m */,
 				A9AF39211F0FB864009D47E7 /* ViewController.h */,
@@ -77,6 +118,53 @@
 				A9AF391C1F0FB864009D47E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9AF393F1F0FB888009D47E7 /* LZPickView */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF39321F0FB888009D47E7 /* LZPickViewDefine.h */,
+				A9AF39331F0FB888009D47E7 /* LZPickViewManager.h */,
+				A9AF39341F0FB888009D47E7 /* LZPickViewManager.m */,
+				A9AF39351F0FB888009D47E7 /* LZPickTopView.h */,
+				A9AF39361F0FB888009D47E7 /* LZPickTopView.m */,
+				A9AF39371F0FB888009D47E7 /* LZAddressPickerView.h */,
+				A9AF39381F0FB888009D47E7 /* LZAddressPickerView.m */,
+				A9AF39391F0FB888009D47E7 /* LZTimePickerView.h */,
+				A9AF393A1F0FB888009D47E7 /* LZTimePickerView.m */,
+				A9AF393B1F0FB888009D47E7 /* LZMultiplePickerView.h */,
+				A9AF393C1F0FB888009D47E7 /* LZMultiplePickerView.m */,
+				A9AF393D1F0FB888009D47E7 /* LZCustomLimitDatePicker.h */,
+				A9AF393E1F0FB888009D47E7 /* LZCustomLimitDatePicker.m */,
+			);
+			name = LZPickView;
+			path = "../../../iOS/GoldeneyeFrame/GoldeneyeFrame/选择器/LZPickView";
+			sourceTree = "<group>";
+		};
+		A9AF39451F0FB888009D47E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF39401F0FB888009D47E7 /* PickerView.gif */,
+				A9AF39411F0FB888009D47E7 /* UIDatePicker.gif */,
+				A9AF39421F0FB888009D47E7 /* goldeneyeAddress.plist */,
+				A9AF39431F0FB888009D47E7 /* iPhone.plist */,
+				A9AF39441F0FB888009D47E7 /* Cars.plist */,
+			);
+			name = Resources;
+			path = "../../../iOS/GoldeneyeFrame/GoldeneyeFrame/选择器/Resources";
+			sourceTree = "<group>";
+		};
+		A9AF39511F0FB8A9009D47E7 /* UseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF39521F0FB8B3009D47E7 /* PickViewVC.h */,
+				A9AF39531F0FB8B3009D47E7 /* PickViewVC.m */,
+				A9AF39541F0FB8B3009D47E7 /* ChoseDatePickViewController.h */,
+				A9AF39551F0FB8B3009D47E7 /* ChoseDatePickViewController.m */,
+				A9AF39561F0FB8B3009D47E7 /* PickTestViewController.h */,
+				A9AF39571F0FB8B3009D47E7 /* PickTestViewController.m */,
+			);
+			path = UseClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +227,12 @@
 			files = (
 				A9AF392B1F0FB864009D47E7 /* LaunchScreen.storyboard in Resources */,
 				A9AF39281F0FB864009D47E7 /* Assets.xcassets in Resources */,
+				A9AF394F1F0FB888009D47E7 /* iPhone.plist in Resources */,
+				A9AF394E1F0FB888009D47E7 /* goldeneyeAddress.plist in Resources */,
+				A9AF394D1F0FB888009D47E7 /* UIDatePicker.gif in Resources */,
+				A9AF39501F0FB888009D47E7 /* Cars.plist in Resources */,
 				A9AF39261F0FB864009D47E7 /* Main.storyboard in Resources */,
+				A9AF394C1F0FB888009D47E7 /* PickerView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +244,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AF39231F0FB864009D47E7 /* ViewController.m in Sources */,
+				A9AF39481F0FB888009D47E7 /* LZAddressPickerView.m in Sources */,
+				A9AF39471F0FB888009D47E7 /* LZPickTopView.m in Sources */,
+				A9AF39461F0FB888009D47E7 /* LZPickViewManager.m in Sources */,
+				A9AF394B1F0FB888009D47E7 /* LZCustomLimitDatePicker.m in Sources */,
+				A9AF394A1F0FB888009D47E7 /* LZMultiplePickerView.m in Sources */,
+				A9AF39581F0FB8B3009D47E7 /* PickViewVC.m in Sources */,
+				A9AF39491F0FB888009D47E7 /* LZTimePickerView.m in Sources */,
 				A9AF39201F0FB864009D47E7 /* AppDelegate.m in Sources */,
+				A9AF395A1F0FB8B3009D47E7 /* PickTestViewController.m in Sources */,
 				A9AF391D1F0FB864009D47E7 /* main.m in Sources */,
+				A9AF39591F0FB8B3009D47E7 /* ChoseDatePickViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
